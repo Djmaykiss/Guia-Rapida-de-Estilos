@@ -1,0 +1,124 @@
+@font-face {
+    font-family: pacifico;
+    src: url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+}
+
+@font-face {
+    font-family: 'henrypenny-regular';
+    src: url('fuentes/HennyPenny-Regular.ttf') format('truetype');
+}
+
+body{
+    margin: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(137, 231, 243);
+    background: crimson;
+}
+
+header{
+    background: darkblue;
+    padding: 15px;
+    font-weight: 900;
+    width: 100%;
+}
+
+h1{
+    float: right;
+    border: 1px solid white;
+    color: white;
+    background: darkcyan;
+    padding: 15px;
+    height: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+h1:hover{
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-family: 'HennyPenny-Regular';
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+p{
+    padding: 10px;
+    border-radius: 70%;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.box-1{
+    background: darkcyan;
+}
+
+.box-1:hover{
+text-shadow: 5px -5px chocolate, -5px 5px darkmagenta;
+}
+
+.box-2{
+    background: darkblue;
+}
+
+.box-2:hover{
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-family: 'HennyPenny-Regular';
+}
+
+.box-3{
+    background: darkmagenta;
+}
+
+.box-3:hover{
+    font-family: 'fruktur', cursive;
+    text-decoration: underline;
+    text-decoration-color: darkcyan;
+    text-decoration-style: wavy;
+}
+
+.box-4{
+    background: chocolate;
+}
+
+.box-4:hover{
+    text-transform: uppercase;
+    font-family: 'pacifico', cursive;
+    text-shadow: 2px 2px 2px darkblue, 0 0 10px darkblue;
+}
+
+footer{
+    position: absolute;
+    background: purple;
+    border-radius: 50%;
+    color: white;
+    height: 150px;
+    width: 150px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    bottom: 5%;
+    right: 5%;
+}
+
+footer:hover{
+    font-family: 'fruktur', cursive;
+    text-decoration: underline;
+    text-decoration-color: darkcyan;
+    text-decoration-style: wavy;
+}
